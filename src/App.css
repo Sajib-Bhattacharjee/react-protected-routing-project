@@ -1,0 +1,18 @@
+nav {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.nav-link:hover {
+  color: pink;
+}
+nav .active {
+  color: yellow;
+}
